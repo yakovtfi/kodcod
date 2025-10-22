@@ -1,5 +1,4 @@
 def input_series():
-    """Prompts the user to enter at least 3 positive numbers separated by spaces."""
     while True:
         data = input("Enter at least 3 positive numbers (space-separated): ")
         parts = data.split()
@@ -16,7 +15,6 @@ def input_series():
             print("Error: Please enter only numbers (no words).")
 
 def show_menu():
-    """Displays the main menu of the program."""
     print("-" * 60)
     print("Series Analyzer - Menu")
     print("1. Input a new series")
@@ -32,7 +30,6 @@ def show_menu():
     print("-" * 60)
 
 def main():
-    """Main control function for the Series Analyzer."""
     series = input_series()
     while True:
         show_menu()
@@ -63,3 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
