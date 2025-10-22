@@ -1,0 +1,20 @@
+1)c:d:
+2)cd/dir
+3)cd
+4)cd
+5)mkdir/dir
+6)echo "hello">File.txt
+  copy File.txt PracticeCmd\File_copy.txt
+  dir
+  cd PracticeCmd
+  dir
+7)move/dir
+8)del/dir
+9)ren/dir
+10)mkdir folder1\folder2
+   cd folder1\folder2
+11)cd ..\..\PracticeCmd
+   copy *.txt Backup
+12)mkdir January
+   cd ..\..
+   dir

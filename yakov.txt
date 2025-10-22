@@ -1,0 +1,16 @@
+1)mkdir testfolder/rmdir testfoder
+2)mkdir project\drafts
+  rmdir\s projeft
+3)echo "helo world"
+4)echo "This is my first CMD file">notes.txt
+5)type
+6)echo"my name is yakov">>notes.txt
+7)cls
+8)ping google.com
+9)ping 127.0.0.1
+10)mkdir Reports && echo "hello" > C:\Users\internet\Desktop\repo\summary.txt
+11)del notes.txt
+12) C:\Users\internet\open2
+13)mkdir 1 2 3
+   rmdir 1 2 3
+14)exit
