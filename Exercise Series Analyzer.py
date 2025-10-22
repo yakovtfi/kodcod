@@ -34,30 +34,30 @@ def main():
     while True:
         show_menu()
         choice = input("Choose an option [0-9]: ")
-        if choice == "0":
-            print("Exiting program. Goodbye!")
-            break
-        elif choice == "1":
-            series = input_series()
-        elif choice == "2":
-            print("Series:", series)
-        elif choice == "3":
-            print("Reversed:", list(reversed(series)))
-        elif choice == "4":
-            print("Sorted:", sorted(series))
-        elif choice == "5":
-            print("Max value:", max(series))
-        elif choice == "6":
-            print("Min value:", min(series))
-        elif choice == "7":
-            print("Average:", sum(series) / len(series))
-        elif choice == "8":
-            print("Number of elements:", len(series))
-        elif choice == "9":
-            print("Sum:", sum(series))
-        else:
-            print("Invalid option. Please choose between 0 and 9.")
+        match choice:
+            case "0":
+                print("Exiting program. Goodbye!")
+                break
+            case "1":
+                series = input_series()
+            case "2":
+                print("Series:", series)
+            case "3":
+                print("Reversed:", list(reversed(series)))
+            case "4":
+                print("Sorted:", sorted(series))
+            case "5":
+                print("Max value:", max(series))
+            case "6":
+                print("Min value:", min(series))
+            case "7":
+                print("Average:", sum(series) / len(series))
+            case "8":
+                print("Number of elements:", len(series))
+            case "9":
+                print("Sum:", sum(series))
+            case _:
+                print("Invalid option. Please choose between 0 and 9.")
 
 if __name__ == "__main__":
     main()
-
